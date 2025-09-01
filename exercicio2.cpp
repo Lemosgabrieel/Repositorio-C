@@ -1,19 +1,14 @@
 #include <stdio.h> 
 
 int main() {
-    float nota1, nota2, nota3, nota4, media; 
-
-    printf("Digite a primeira nota: ");
-    scanf("%f", &nota1);
-    printf("Digite a segunda nota: ");
-    scanf("%f", &nota2);
-    printf("Digite a terceira nota: ");
-    scanf("%f", &nota3);
-    printf("Digite a quarta nota: ");
-    scanf("%f", &nota4);
-
-    media = (nota1 + nota2 + nota3 + nota4) / 4;    
-
-    printf("A media das notas é: %.2f\n", media);
+    int n1, n2, n3, soma; 
+    printf("Digite o primeiro numero: ");
+    scanf("%d", &n1);
+    printf("Digite o segundo numero: ");
+    scanf("%d", &n2);
+    printf("Digite o terceiro numero: ");
+    scanf("%d", &n3);
+    soma = n1 + n2 + n3;
+    printf("A soma dos numeros e: %d", soma);
     return 0;
 }
